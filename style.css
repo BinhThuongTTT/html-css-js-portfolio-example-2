@@ -187,7 +187,7 @@ section {
     text-align: center;
 }
 
-.section__text__p1 {
+.section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
@@ -209,4 +209,160 @@ section {
 .icon {
     cursor: pointer;
     height: 2rem;
+}
+
+/* BUTTON */ 
+
+.btn-container {
+    display: flex; 
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+}
+
+.btn-color-1 {
+    background: rgb(53,53,53);
+    color: white;
+}
+
+.btn-color-1:hover {
+    background: rgb(0,0,0);
+}
+
+.btn-color-2 {
+    background: none;
+    color: rgb(53,53,53);
+}
+
+.btn-color-2:hover {
+    background: rgb(53,53,53);
+    color: white;
+    border: rgb(255,255,255) 0.1rem solid;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+/* ABOUT SECTION */
+
+#about {
+    position: relative;
+}
+
+.about-contianers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-contianers,
+.about-details-container {
+    display: flex; 
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute; 
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container { 
+    padding: 1.5rem;
+    flex: 1;
+    background:white ;
+    border-radius: 2rem;
+    border:rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align: center;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+/* EXPERIENCE SECTION */
+
+#experience {
+    position: relative;
+    padding: 2rem 0; 
+}
+
+.experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2.5rem;
+    text-align: center; 
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: row;
+    gap: 5rem; 
+}
+
+.details-container {
+    flex: 1; 
+    padding: 1rem; 
+    text-align: left; 
+}
+
+.article-container {
+    display: flex;
+    flex-direction: row; 
+    gap: 4rem; 
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+article {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: left;
+    width: 150px; 
+}
+
+article .icon {
+    cursor: default;
+}
+
+article div {
+    width: 100%;
+}
+
+article h3 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+article p {
+    margin: 0;
+    font-size: 0.875rem;
 }
