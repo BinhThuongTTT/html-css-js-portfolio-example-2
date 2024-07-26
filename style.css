@@ -315,8 +315,8 @@ section {
 .experience-sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
-    font-size: 1.75rem;
-    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    margin-bottom: 3rem;
     text-align: center; 
 }
 
@@ -329,14 +329,14 @@ section {
 
 .details-container {
     flex: 1; 
-    padding: 1rem; 
+    padding: 2rem; 
     text-align: left; 
 }
 
 .article-container {
     display: flex;
     flex-direction: row; 
-    gap: 4rem; 
+    gap: 5rem; 
     flex-wrap: wrap;
     justify-content: space-evenly; 
 }
@@ -344,7 +344,7 @@ section {
 article {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
     text-align: left;
     width: 150px; 
 }
@@ -359,10 +359,13 @@ article div {
 
 article h3 {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 
 article p {
     margin: 0;
     font-size: 0.875rem;
 }
+
+/*PROJECTS SECTION */
+
