@@ -3,8 +3,8 @@
         height: 83vh;
         margin-bottom: 6rem;
     }
-    #hamburger-nav {
-        display: flex;
+    .about-containers {
+        flex-wrap: wrap
     }
 }
 
@@ -15,5 +15,21 @@
     }
     #hamburger-nav {
         display: flex;
+    }
+    #experience, .experience-details-container {
+        margin-top: 2rem;
+    }
+    #profile, 
+    .section-container {
+        display: flex;
+    } 
+    .arrow {
+        display: none;
+    }
+    .section-container {
+        height: fit-content;
+    }
+    section {
+        margin: 0 5%;
     }
 }
