@@ -368,4 +368,61 @@ article p {
 }
 
 /*PROJECTS SECTION */
+.experience-details-container {
+    display: flex;
+    justify-content: space-between; /* Adjusts the space between the items */
+    flex-wrap: wrap; /* Allows wrapping to the next line if there's not enough space */
+}
+
+.details-container {
+    flex: 1; /* Flex-grow: 1 will make them take equal space */
+    margin: 10px; /* Adjust the margin as needed */
+    min-width: 300px; /* Ensure a minimum width for each container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.color-container {
+    background-color: #f9f9f9; /* Adjust the background color as needed */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article-container {
+    text-align: center;
+}
+
+.project-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.experience-sub-title {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.btn-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-color-2 {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
 
